@@ -2,9 +2,9 @@
   <configuration default="false" name="run" type="docker-deploy" factoryName="docker-image" server-name="Docker">
     <deployment type="docker-image">
       <settings>
-        <option name="imageTag" value="mono-xsp" />
+        <option name="imageTag" value="petrbalat/mono-xsp" />
         <option name="command" value="" />
-        <option name="containerName" value="" />
+        <option name="containerName" value="mono-xsp" />
         <option name="entrypoint" value="" />
         <option name="commandLineOptions" value="" />
       </settings>
